@@ -1,0 +1,705 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+*{
+    font-family: 'Merriweather', serif;
+    
+}
+header{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(resources/Banner\ Image.png);
+    object-fit: cover;
+border-radius: 16px;
+background-size: cover;
+position: relative;
+
+}
+
+
+.banar{
+position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+}
+p{
+    font-family:monospace;
+
+}
+.banar-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banar .banar-desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; 
+}
+
+/* banar page ends here  */
+
+
+.discount-page{
+    width: 80%;
+margin: 0 auto;
+
+}
+
+.discount-content{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.discount-content .discount-heading{
+
+color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.discount-content .discount-desc{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 20px;
+}
+
+.discount-content .discount-catagory{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 40px;
+}
+
+.discount-content img{
+    width: 50%;
+}
+
+
+
+/* celebration page start */
+
+.celebration{
+
+width: 1320px;
+
+height: 600px;
+
+flex-shrink: 0;
+
+margin: 50px auto;
+
+display: flex;
+
+justify-content: space-between;
+
+text-align: center;
+
+align-items: center;
+
+background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(resources/Vectorrr.png);
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+background-position: center;
+
+object-fit: cover;
+}
+
+.celebration-content{
+    width: 70%;
+    height: 100%;
+   text-align: justify;
+    color: white;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+
+.celebration-year{
+    width: 30%;
+
+}
+
+.celebration-year img{
+    width: 100%;
+    height: 100%;
+}
+
+.celebration-content .celebration-title{
+    text-align: justify;
+    width: 642px;
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+}
+
+
+.celebration-content .celebration-content-desc{
+    width: 642px;
+
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+line-height: 30px; /* 166.667% */
+}
+
+.celebration-content button{
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+/* meeting scedule start */
+.meeting-scedule{
+  margin: 0 auto;
+    text-align: justify;
+    color: white;
+    width: 1320px;
+height: 482px;
+text-align: center;
+position: relative;
+}
+.special-color{
+    color: red;
+}
+.place-content{
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  margin-right: 44px;
+  background-color: beige;
+  color: #5a5252;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+  padding: 30px;
+}
+
+
+.place-content button{
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 10px; 
+}
+
+
+
+/*  */
+.offer-pages-wrapper{
+    width: 1320px;
+    /* height: 482px; */
+    /* margin-bottom: -85px; */
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* margin-bottom: 60px; */
+    bottom: 100px;
+}
+
+.left-offer-page{
+    width: 33%;
+    margin-bottom: 120px;
+    align-items: center;
+    text-align: justify;
+
+}
+
+.left-offer-page .offer-heading{
+    color: #F00;
+
+    text-align: justify;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+.left-offer-page .offer-timing{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.left-offer-page .offer-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+/*  */
+.middle-offer-page{
+    width: 33%;
+
+   
+
+}
+.middle-offer-page .round{
+    background:rgb(235, 229, 229);
+  padding: 10px;
+/* background-color: #F00; */
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    border: 10px solid;
+}
+
+
+
+
+
+
+/*  */
+
+.right-offer-page{
+
+}
+
+.right-offer-page .heading{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: justify;
+    align-items: center;
+
+}
+
+.right-offer-page .desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    text-align: justify;
+    align-items: center;
+}
+
+.right-offer-page img{
+    text-align: justify;
+    align-items: center;
+}
+
+
+
+/* testimonials start */
+
+.testimonials{
+    width: 1320px;
+    margin: 0 auto ;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.testimonials .testimonail-content{
+
+}
+
+.testimonials .defination{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.testimonials .discount-heading{
+    color: rgb(131, 131, 131);
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.testimonials .description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* testimonial end */
+
+/*  */
+
+
+.adds-wrapper{
+width: 1320px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+position: relative;
+}
+
+.adds-wrapper .gift-box{
+    z-index: 999;
+}
+.adds-wrapper .gift-box img{
+width: 400px;
+position: absolute;
+margin-top: 30px;
+}
+.offer-page{
+width: 200px;
+z-index: 999;
+right: 300px;
+
+
+}
+.offer-page-two{
+    position: absolute;
+    left: 740px;
+}
+.offer-page img{
+width: 100%;
+
+
+
+}
+
+
+.adds-wrapper .gift-profile img{
+width: 400px;
+z-index:-1;
+
+
+}
+
+ .footer-cover {
+width:1320px;
+height: 160px;
+margin: 0 auto;
+
+}
+
+/* portfolio section start */
+
+
+.portfolio{
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 164px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.portfolio .content{
+    align-items: start;
+    text-align: justify;
+}
+
+.content .gift-selection{
+
+color: #F00;
+
+font-family: Inter;
+
+font-size: 24px;
+
+font-style: normal;
+
+font-weight: 500;
+
+margin-top: 10px;
+
+line-height: normal;
+}
+
+.content .heading{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.content .desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-bottom: 20px;
+}
+.product-section{
+    width: 1320px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+.product-section .product-items-one{
+ display: flex;
+ align-items: center;
+ text-align: center;
+}
+
+
+
+
+.product-section .product-items-two{
+    display: flex;
+}
+
+.item{
+    width: 1320px;
+gap: 30px;
+    align-items: center;
+    text-align: center;
+
+}
+.item img{
+width: 90%;
+margin: 0 auto;
+}
+
+/* portfolio section End */
+
+
+
+/* contactact section start */
+
+
+.Email-container{
+    width: 1320px;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0px auto;
+    margin-top: 60px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+
+.Email-container img{
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
+}
+
+
+.Email-container .subscription-heading{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Email-container .subscription-desc{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+margin-bottom: 10px;
+  
+}   
+
+.field{
+width: 100%;
+position: relative;
+margin-top: 30px;
+}
+.Email-container input{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    
+}
+
+.Email-container button{
+    padding: 12px 30px;
+    right: 500px;
+    position: absolute;
+    background-color: tomato;
+    border-start-end-radius:
+     30px;
+     color: white;
+     border: none;
+     border-bottom-right-radius: 30px;
+    
+}
+/* contactact section End */
+
+   
+
+/* footer start */
+
+
+.contact-page{
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+.contact-page .place-wrapper{
+    margin-top: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.contact-page .place-name p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+.contact-page .contact-social{
+    width: 200px;
+ display: flex;
+ align-items: center;
+ text-align: center;
+}
+.contact-page .phone img{
+align-items: center;
+width: 20px;
+margin-top: 30px;
+text-align: center;
+}
+
+.contact-page .website{
+    text-align: center;
+}
+
+.contact-page .others-platform{
+display: flex;
+gap: 10px; 
+align-items: center;
+justify-content: center; 
+margin-top: 40px;
+margin-bottom: 50px;
+}
+.contact-page .footer-end{
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+}
+.contact-page .copyright p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-page .subscribe p{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+hr{
+    opacity: 0.2;
+    margin: 20px 0;
+}
+
+
+/* Footer End Here */
